@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Swanky+and+Moo+Moo&display=swap');
+
+h1 {
+  color: #248ea9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 32px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 24px;
+}
+h3  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  color: lightgreen;
+  margin: 0px;
+  font-family: 'Swanky and Moo Moo', cursive;
+}
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+body {
+  background-color: #fdfdf6;
+  color: #414141;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  line-height: 1.25em;
+}
+a {
+  text-decoration: none;
+  color: #112f91;
+}
+
+a:hover {
+  color: #313131;
+}
+@media (min-width:960px) {
+.card-lightgrey {
+  background-color: #eeeeee;
+  width: 90%;
+  margin: 64px auto;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 0px rgba(10,10,10,0.1);
+  text-align: center;
+  opacity: 1;
+}}
+
+@media (max-width:959px) {
+.card-lightgrey {
+  background-color: #eeeeee;
+  width: 450px;
+  margin: 64px auto;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 0px rgba(10,10,10,0.1);
+  text-align: center;
+  opacity: 1;
+}}
+
+
+@media (max-width:540px) {
+.card-lightgrey {
+  background-color: #eeeeee;
+  width: 300px;
+  margin: 64px auto;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 0px rgba(10,10,10,0.1);
+  text-align: center;
+  opacity: 1;
+}}
+
+ .container {
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
+
+.list-inline > li {
+  list-style: none;
+  font-size: 40px;
+  display: inline-block;
+  padding: 40px;
+  margin: 16px;
+}
+
+.btn-deepblue {
+  padding: 8px;
+  background-color: #00204a;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+}
+
+.btn-deepblue:hover {
+  color: lightgrey;
+}
+
+li{
+  text-align: -webkit-match-parent;
+}
+
